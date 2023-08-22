@@ -3,13 +3,13 @@ import axios from "axios"
 import Cookies from "js-cookie"
 import Image from "next/image"
 import Link from "next/link"
-import { Router } from "next/router"
 import React from "react"
 import logo from "@/public/logo.webp"
 import { Avatar } from "flowbite-react"
 import { HiCog, HiLogout } from "react-icons/hi"
 import { CiLocationOn } from "react-icons/ci"
 import { Dropdown } from "flowbite-react";
+import Router from 'next/router'
 
 export default function Navbar() {
 	let { state, handleFunction } = React.useContext(GlobalContext)
