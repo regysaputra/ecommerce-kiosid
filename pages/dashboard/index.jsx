@@ -30,7 +30,7 @@ export default function Dashboard () {
   //     }
   // }, [theme]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     checkProduct();
     checkCategory();
     checkCheckout();

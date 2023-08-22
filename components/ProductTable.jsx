@@ -15,7 +15,7 @@ export default function ProductTable() {
 	} = state
 	let { checkCategory, checkProduct } = handleFunction
 
-	React.PureComponentuseEffect(() => {
+	React.useEffect(() => {
 		checkProduct()
 		checkCategory()
 	}, [])

@@ -56,7 +56,7 @@ export default function ProductModals() {
 	const inputPrice = React.useRef(null)
 	const inputAvailable = React.useRef(null)
 
-	useEffect(() => {
+	React.useEffect(() => {
 		// console.log("Param Product = ", paramProduct);
 		inputProductName.current.value = paramProduct.productName
 		inputDescription.current.value = paramProduct.description
